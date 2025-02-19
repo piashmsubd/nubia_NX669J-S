@@ -1,0 +1,13 @@
+# TWRP FSTAB for Nubia NX669J-S
+/super       auto    rw,defaults
+/system      ext4    ro,barrier=1
+/vendor      ext4    ro,barrier=1
+/product     ext4    ro,barrier=1
+/metadata    ext4    defaults
+/data        f2fs    rw,nosuid,nodev,discard,forceencrypt=/dev/block/bootdevice/by-name/metadata
+/boot        emmc    defaults
+/vbmeta      emmc    defaults
+/vbmeta_system emmc defaults
+/dtbo        emmc    defaults
+/misc        emmc    defaults
+/persist     ext4    defaults
