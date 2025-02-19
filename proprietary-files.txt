@@ -1,0 +1,76 @@
+# Proprietary Files List for Nubia NX669J-S
+
+# Audio HAL
+vendor/lib/hw/audio.primary.lahaina.so
+vendor/lib64/hw/audio.primary.lahaina.so
+vendor/etc/audio_policy_configuration.xml
+vendor/etc/audio_effects.conf
+vendor/etc/mixer_paths.xml
+vendor/bin/hw/android.hardware.audio.service
+
+# Bluetooth
+vendor/lib/hw/bluetooth.default.so
+vendor/lib64/hw/bluetooth.default.so
+vendor/etc/bluetooth/bt_stack.conf
+
+# Camera
+vendor/lib/hw/camera.qcom.so
+vendor/lib64/hw/camera.qcom.so
+vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
+vendor/etc/camera/camera_config.xml
+
+# Display & GPU
+vendor/lib/hw/gralloc.lahaina.so
+vendor/lib64/hw/gralloc.lahaina.so
+vendor/lib/hw/hwcomposer.lahaina.so
+vendor/lib64/hw/hwcomposer.lahaina.so
+vendor/bin/hw/android.hardware.graphics.allocator-service
+
+# DRM (Widevine)
+vendor/lib/libwvdrmengine.so
+vendor/lib64/libwvdrmengine.so
+vendor/lib/libdrmclearkeyplugin.so
+vendor/lib64/libdrmclearkeyplugin.so
+
+# Fingerprint
+vendor/lib/hw/fingerprint.lahaina.so
+vendor/lib64/hw/fingerprint.lahaina.so
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
+
+# GPS
+vendor/lib/hw/gps.lahaina.so
+vendor/lib64/hw/gps.lahaina.so
+vendor/etc/gps.conf
+
+# Keymaster (Security & Encryption)
+vendor/lib/hw/android.hardware.keymaster@4.0-impl.so
+vendor/lib64/hw/android.hardware.keymaster@4.0-impl.so
+vendor/etc/permissions/android.hardware.keymaster.xml
+
+# Media & Codecs
+vendor/lib/hw/omx.qcom.video.decoder.avc.so
+vendor/lib64/hw/omx.qcom.video.decoder.avc.so
+vendor/etc/media_codecs.xml
+vendor/etc/media_profiles_V1_0.xml
+
+# Modem & Radio
+vendor/lib64/librmnetctl.so
+vendor/lib/libqmi_cci.so
+vendor/lib64/libqmi_cci.so
+vendor/etc/permissions/qti_libpermissions.xml
+
+# Sensors
+vendor/lib/hw/sensors.lahaina.so
+vendor/lib64/hw/sensors.lahaina.so
+vendor/etc/sensors/hals.conf
+
+# Wi-Fi
+vendor/lib/hw/wifi.lahaina.so
+vendor/lib64/hw/wifi.lahaina.so
+vendor/etc/wifi/wpa_supplicant.conf
+
+# Secure Boot & TrustZone
+vendor/firmware/aop.mbn
+vendor/firmware/modem.mbn
+vendor/firmware/tz.mbn
+vendor/firmware/keymaster.mbn
